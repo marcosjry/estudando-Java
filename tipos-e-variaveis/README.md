@@ -1,18 +1,29 @@
-## Getting Started
+## Tipos primitivos em *Java*
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**_int_** : 4 _bytes_
 
-## Folder Structure
+**_byte_** : 1 _byte_
 
-The workspace contains two folders by default, where:
+**_short_** : 2 _bytes_
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+**_long_** : 8 _bytes_
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+**_float_** : 4 _bytes_
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**_double_** : 8 _bytes_
 
-## Dependency Management
+**_boolean_** : N/A
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**_char_** : 1 _byte_
+
+#### OBS:
+**_Variáveis do tipo float_** devem ser declaradas com um **F** maiúsculo no final em Java. Caso contrário, por padrão a linguagem mudará o tipo da variável para o tipo double.
+
+**_Variáveis do tipo long_** devem terminar com a letra **L** para representar que aquela variável não é do tipo _int_ mas sim um _long_.
+
+**_Variáveis Final_** São as constantes da linguagem java. ao declarar uma variável do tipo int, caso ela não possa mudar durante a execução do meu programa, posso declarar ela como _Final_ e seu nome deve ser todo maiúsculo (por _**padronização/convenção**_). exemplo:
+
+```
+final int VALOR = 5;
+```
+Esse "valor" foi declarado como uma constante na linguagem _JAVA_.

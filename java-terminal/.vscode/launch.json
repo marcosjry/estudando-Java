@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMeScan",
+            "request": "launch",
+            "mainClass": "AboutMeScan",
+            "projectName": "java-terminal_ada86841"
+        },
+        {
+            "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
             "mainClass": "AboutMe",

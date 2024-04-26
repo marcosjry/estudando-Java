@@ -11,3 +11,6 @@ metodos/src/Usuario.class
 java-terminal/bin/AboutMe.class
 java-terminal/.vscode/settings.json
 
+construtores/.vscode/settings.json
+construtores/bin/Pessoa.class
+construtores/bin/SistemaCadastro.class

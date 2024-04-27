@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CarrinhoCompra {
 
-    List<ItemCarrinho> itemList;
+    private List<ItemCarrinho> itemList;
 
     double valorTotal = 0.0;
 

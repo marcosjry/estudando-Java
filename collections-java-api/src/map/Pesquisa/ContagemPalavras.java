@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ContagemPalavras {
-    private int contagem = 0;
+
     Map<String, Integer> contaPalavras;
 
     public ContagemPalavras() {
@@ -13,13 +13,12 @@ public class ContagemPalavras {
 
     public void adicionarPalavra(String palavra, Integer quantidade) {
         contaPalavras.put(palavra, quantidade);
-        this.contagem++;
     }
 
     public void removerPalavra(String palavra) {
         if(!contaPalavras.isEmpty()) {
             contaPalavras.remove(palavra);
-            this.contagem--;
+
         }
     }
 

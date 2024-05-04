@@ -1,4 +1,4 @@
-package edu.marcos.primeirasemana;
+package edu.marcos.primeiraAula;
 
 public class App {
     

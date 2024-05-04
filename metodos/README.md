@@ -1,10 +1,10 @@
 ## Critérios de convenção para métodos em Java
 
-#### _Não são critério que obrigatóriamente estão na linguagem Java, no entanto, facilitam ao desenvolvermos códigos de forma colaborativa._ 
+#### _Não são critérios que obrigatóriamente estão na linguagem Java, no entanto, facilitam ao desenvolvermos códigos de forma colaborativa._ 
 
-- Devem ser nomeado como verbo.
+- Devem ser nomeadas como verbo.
 
-- Seguir padrão camelCase (Todas letras minúscula com exceção da primeira letra da palavras seguintes).
+- Seguir padrão camelCase (letras minúscula com exceção da primeira letra das palavras seguintes).
 
 ```
 somar(int n1, int n2){}
